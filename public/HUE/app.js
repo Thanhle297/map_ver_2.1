@@ -8,13 +8,13 @@ var nextBtn = document.querySelector('.next'),
 let timeRunning = 3000 
 // let timeAutoNext = 7000
 
-nextBtn.onclick = function(){
-    showSlider('next')
-}
+// nextBtn.onclick = function(){
+//     showSlider('next')
+// }
 
-prevBtn.onclick = function(){
-    showSlider('prev')
-}
+// prevBtn.onclick = function(){
+//     showSlider('prev')
+// }
 
 let runTimeOut 
 
@@ -23,12 +23,12 @@ let runTimeOut
 // }, timeAutoNext)
 
 
-function resetTimeAnimation() {
-    runningTime.style.animation = 'none'
-    runningTime.offsetHeight /* trigger reflow */
-    runningTime.style.animation = null 
-    runningTime.style.animation = 'runningTime 7s linear 1 forwards'
-}
+// function resetTimeAnimation() {
+//     runningTime.style.animation = 'none'
+//     runningTime.offsetHeight /* trigger reflow */
+//     runningTime.style.animation = null 
+//     runningTime.style.animation = 'runningTime 7s linear 1 forwards'
+// }
 
 
 function showSlider(type) {
@@ -58,4 +58,4 @@ function showSlider(type) {
 }
 
 // Start the initial animation 
-resetTimeAnimation()
+// resetTimeAnimation()

@@ -10,9 +10,11 @@
   /* padding: 20px; */
 }
 
-h2 {
-  margin-left: 60%;
-  transform: translateX(-50%);
+h1 {
+  margin-left: 40%;
+  transform: translateX(-40%);
+  margin-bottom: 3%;
+  /* text-align: text-center; */
 }
 .link{
   margin-left: 50%;

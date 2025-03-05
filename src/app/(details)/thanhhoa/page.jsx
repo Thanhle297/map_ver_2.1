@@ -1,11 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import Script from "next/script";
+import './style.scss';
 
 export default function thanhhoa() {
   return (
     <>
-    <link rel="stylesheet" href="./THANH_HOA/style.css" />
       <div>
         <header>
           <nav>
@@ -50,18 +49,9 @@ export default function thanhhoa() {
                 </div>
               </div>
             </div>
-            {/*next prev button*/}
-            {/* <div class="arrows">
-    <button class="prev"><</button>
-    <button class="next">></button>
-</div> */}
-            {/* time running */}
-            {/* <div class="timeRunning"></div> */}
           </div>
         </div>
       </div>
-      
-      <Script src="./THANH_HOA/app.js"></Script>
     </>
   );
 }

@@ -1,26 +1,16 @@
-"use client"
-import { useEffect,useRef } from "react";
-import { initializeMap } from "@/app/config/map";
-
+'use client'
+// import { useEffect } from "react";
 import Script from "next/script";
 import React from "react";
-import "mapbox-gl/dist/mapbox-gl.css";
-
 
 export default function MapComponents() {
-  const mapContainerRef = useRef(null);
-
-  useEffect(() => {
-    if (mapContainerRef.current) {
-      initializeMap(mapContainerRef.current.id);
-    }
-  }, []);
+  
   return (
     <>
-      {/* <link
+      <link
         href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css"
         rel="stylesheet"
-      /> */}
+      />
       {/* link icon fone-awesome */}
       <link
         rel="stylesheet"
@@ -96,7 +86,9 @@ export default function MapComponents() {
             </div>
           </div>
         </div>
-        <button id="resetNorthBtn"><i class="fa-solid fa-house"></i></button>
+        <button id="resetNorthBtn">
+          <i className="fa-solid fa-house"></i>
+        </button>
         <div className="glb-search">
           <div className="search">
             <input type="text" id="btn-search" placeholder="Tìm kiếm..." />
@@ -106,7 +98,7 @@ export default function MapComponents() {
       </div>
 
       <Script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></Script>
-      {/* <Script src="./JS/map.js"></Script> */}
+      <Script src="./JS/map.js"></Script>
       <Script src="./JS/popup.js"></Script>
       <Script src="./JS/timeline.js"></Script>
     </>

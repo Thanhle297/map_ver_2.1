@@ -69,6 +69,7 @@ var locations = [
       "Chiều 16/8/1945, một đơn vị quân Giải phóng do các đồng chí: Võ Nguyên Giáp và Trần Đăng Ninh trực tiếp chỉ huy xuất phát từ Tân Trào (Sơn Dương, Tuyên Quang) tiến về đánh Nhật ở thị xã Thái Nguyên.",
       "Chiều 20-8, tại sân vận động Thái Nguyên, đồng chí Võ Nguyên Giáp thay mặt Ủy ban Khởi nghĩa toàn quốc tuyên bố xóa bỏ chính quyền của địch, thành lập Ủy ban Nhân dân cách mạng lâm thời tỉnh Thái Nguyên, do đồng chí Lê Trung Đình làm Chủ tịch.",
     ],
+    url: "/thainguyen",
     images: ["img", "img"],
     date: "20-8",
   },
@@ -80,6 +81,7 @@ var locations = [
       "Ngày 21-8-1945, cuộc khởi nghĩa giành chính quyền ở thị xã Tuyên Quang giành thắng lợi.",
       " Sáng ngày 22-8-1945, thị xã Tuyên Quang sôi động náo nhiệt, cờ đỏ sao vàng, biểu ngữ được giương cao khắp các ngả đường.",
     ],
+    url:"/tuyenquang",
     images: ["img", "img"],
     date: "21-8",
   },
@@ -632,7 +634,7 @@ locations.forEach(function (location, index) {
 
   // Tạo popup với slideshow
   var popup = new mapboxgl.Popup({ closeButton: true }).setHTML(`
-    <h2>${location.title}</h2>
+    <h1>${location.title}</h1>
     <div class="slideshow-container">
         ${slidesHTML}
         <a class="prev" onclick="plusSlides(-1, ${index})">❮</a>

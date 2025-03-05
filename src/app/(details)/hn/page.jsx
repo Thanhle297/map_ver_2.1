@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Script from "next/script";
 import React from "react";
+import './style.scss';
 // import "/public/HN/style.css"
 
 export default function HN() {
   return (
     <>
-    <link rel="stylesheet" href="./HN/style.css" />
+    {/* <link rel="stylesheet" href="./HN/style.css" /> */}
 
 
       <div>

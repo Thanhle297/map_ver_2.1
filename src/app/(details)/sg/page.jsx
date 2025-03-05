@@ -1,12 +1,11 @@
 import Link from "next/link";
 import Script from "next/script";
 import React from "react";
+import './style.scss';
 
 export default function SG() {
   return (
     <>
-    <link rel="stylesheet" href="./SAIGON/style.css" />
-
       <div>
         <header>
           <nav>
@@ -70,8 +69,6 @@ export default function SG() {
               <button className="prev">&lt;</button>
               <button className="next">&gt;</button>
             </div>
-            {/* time running */}
-            {/* <div className="timeRunning" /> */}
           </div>
         </div>
       </div>

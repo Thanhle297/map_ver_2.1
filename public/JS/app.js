@@ -23,12 +23,12 @@ let runTimeOut
 // }, timeAutoNext)
 
 
-// function resetTimeAnimation() {
-//     // runningTime.style.animation = 'none'
-//     // runningTime.offsetHeight /* trigger reflow */
-//     runningTime.style.animation = null 
-//     runningTime.style.animation = 'runningTime 7s linear 1 forwards'
-// }
+function resetTimeAnimation() {
+    runningTime.style.animation = 'none'
+    runningTime.offsetHeight /* trigger reflow */
+    runningTime.style.animation = null 
+    runningTime.style.animation = 'runningTime 7s linear 1 forwards'
+}
 
 
 function showSlider(type) {
@@ -54,8 +54,8 @@ function showSlider(type) {
     //     nextBtn.click()
     // }, timeAutoNext)
 
-    // resetTimeAnimation()
+    resetTimeAnimation() // Reset the running time animation
 }
 
 // Start the initial animation 
-// resetTimeAnimation()
+resetTimeAnimation()

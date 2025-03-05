@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import Script from "next/script";
+import './style.scss'
 
 export default function hue() {
   return (
     <>
-    <link rel="stylesheet" href="./HUE/style.css" />
+    {/* <link rel="stylesheet" href="./HUE/style.css" /> */}
       <div>
         <header>
           <nav>
