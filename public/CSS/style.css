@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+  user-select: none;
+}
+
 #container {
   display: flex;
   justify-content: space-between;
@@ -16,7 +23,7 @@ h1 {
   margin-bottom: 3%;
   /* text-align: text-center; */
 }
-.link{
+.link {
   margin-left: 50%;
   transform: translateX(-65%);
   background-color: antiquewhite;
@@ -136,8 +143,8 @@ h1 {
 }
 #resetNorthBtn {
   position: absolute;
-  top: 65px; 
-  left: 1%; 
+  top: 65px;
+  left: 1%;
   padding: 10px 20px;
   background-color: #007bff;
   color: white;
@@ -150,23 +157,13 @@ h1 {
 #resetNorthBtn:hover {
   background-color: #0056b3;
 }
+
 /* Phần tử chứa input và icon tìm kiếm */
 .glb-search {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-}
-
-/* Phần tử search */
-.search {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-/* Phần tử chứa input và icon tìm kiếm */
-.glb-search {
+  margin-top: 15px;
   position: absolute;
   top: 0px; /*Đặt khoảng cách từ phía trên*/
   left: 1%;

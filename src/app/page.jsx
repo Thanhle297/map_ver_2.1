@@ -1,11 +1,15 @@
+'use client'
 import MapComponents from "../components/MapComponents";
 import dynamic from "next/dynamic";
-
-const MapComponentWithTimeline  = dynamic(() => import('../components/MapComponents'));
-
+import { useEffect } from "react";
+const MapComponentWithTimeline = dynamic(() =>
+  import("../components/MapComponents")
+);
 
 export default function Home() {
-  return (
-    <MapComponents/>
-  );
+  useEffect(() => {
+    document.body.className = ""; // Reset style của body khi vào trang chính
+  }, []);
+
+  return <MapComponents />;
 }

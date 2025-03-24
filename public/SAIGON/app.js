@@ -37,7 +37,7 @@ function showSlider(type) {
         list.appendChild(sliderItemsDom[0])
         carousel.classList.add('next')
     } else{
-        list.prepend(sliderItemsDom[sliderItemsDom.length - 1])
+        list.prepend(sliderItemsDom[sliderItemsDom.length - 1])/
         carousel.classList.add('prev')
     }
 

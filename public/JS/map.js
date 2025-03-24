@@ -9,10 +9,84 @@ const map = new mapboxgl.Map({
   center: [105.8542, 21.0285],
   zoom: 6,
 });
+
 map.on("load", () => {
+  // Thêm nguồn dữ liệu cho Hoàng Sa & Trường Sa
+  map.addSource("hoangsa-truongsa", {
+    type: "geojson",
+    data: {
+      type: "FeatureCollection",
+      features: [
+        {
+          type: "Feature",
+          geometry: {
+            type: "Polygon",
+            coordinates: [
+              [
+                [111.5, 16.5],
+                [112.0, 16.5],
+                [112.0, 17.0],
+                [111.5, 17.0],
+                [111.5, 16.5],
+              ],
+            ],
+          },
+          properties: { name: "Quần đảo Hoàng Sa" },
+        },
+        {
+          type: "Feature",
+          geometry: {
+            type: "Polygon",
+            coordinates: [
+              [
+                [114.0, 9.0],
+                [115.0, 9.0],
+                [115.0, 10.0],
+                [114.0, 10.0],
+                [114.0, 9.0],
+              ],
+            ],
+          },
+          properties: { name: "Quần đảo Trường Sa" },
+        },
+      ],
+    },
+  });
+
+  // Thêm lớp hiển thị biên giới Hoàng Sa & Trường Sa
+  map.addLayer({
+    id: "hoangsa-truongsa-border",
+    type: "line",
+    source: "hoangsa-truongsa",
+    paint: {
+      "line-color": "#ff0000",
+      "line-width": 2,
+      "line-dasharray": [2, 2],
+    },
+  });
+
+  // Thêm nhãn tên quần đảo
+  map.addLayer({
+    id: "hoangsa-truongsa-label",
+    type: "symbol",
+    source: "hoangsa-truongsa",
+    layout: {
+      "text-field": ["get", "name"],
+      "text-font": ["Open Sans Bold"],
+      "text-size": 14,
+      "text-anchor": "top",
+    },
+    paint: {
+      "text-color": "#ff0000",
+      "text-halo-color": "#ffffff",
+      "text-halo-width": 2,
+    },
+  });
+
+  console.log("Đã thêm Hoàng Sa & Trường Sa vào bản đồ!");
+
   const sources = map.getStyle().sources;
   console.log("Danh sách nguồn dữ liệu trong bản đồ:", sources);
-
 
   // rs hướng bắc
   // Thêm sự kiện click cho nút "Reset North"

@@ -1,7 +1,8 @@
 'use client'
-// import { useEffect } from "react";
 import Script from "next/script";
 import React from "react";
+import '../styles/style.scss'
+// import { useEffect } from 'react';
 
 export default function MapComponents() {
   
@@ -16,7 +17,6 @@ export default function MapComponents() {
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       />
-      <link rel="stylesheet" href="./CSS/style.css" />
 
       <div>
         <div id="container">

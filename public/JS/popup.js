@@ -20,6 +20,8 @@ var locations = [
     title: "Hà Nội",
     description: [
       "Hà Nội, ngày 15-8, lệnh khởi nghĩa về tới Hà Nội.",
+      "Ngày 16-8, truyền đơn, biểu ngữ kêu gọi khởi nghĩa xuất hiện khắp nơi.",
+      "Chiều 17-8, Tổng hội viên chức tổ chức mít tỉnh tại Nhà hát lớn. Đảng bộ Hà đã huy động quần chúng tuần hành qua các phố sau cuộc mít tỉnh, kêu gọi khởi nghĩa",
       "Ngày 18-8, quần chúng tiếp tục biểu tình tuần hành.",
       "Sáng 19-8, cuộc khởi nghĩa thắng lợi hoàn toàn.",
     ],
@@ -27,6 +29,8 @@ var locations = [
     images: [
       "https://media.vietnamplus.vn/images/a7fbfd9e5c1d6608653ae975a700bd65da1d5a3d4473ce567871e19941f8b0303f2458653d009a2d8eee45b35527a284a74f6b1bfe70b3203772c7979020cefa/khoi_nghia.jpg",
       "https://file3.qdnd.vn/data/images/0/2022/08/06/duyhoan_kh/vua-hung-180520.jpg?dpi=150&quality=100&w=870",
+      "https://file3.qdnd.vn/data/images/0/2022/07/25/huyentrang_km/2.jpg",
+      "https://file3.qdnd.vn/data/images/0/2022/07/25/huyentrang_km/2.jpg",
       "https://file3.qdnd.vn/data/images/0/2022/07/25/huyentrang_km/2.jpg",
     ],
     date: "19-8",
@@ -70,7 +74,7 @@ var locations = [
       "Chiều 20-8, tại sân vận động Thái Nguyên, đồng chí Võ Nguyên Giáp thay mặt Ủy ban Khởi nghĩa toàn quốc tuyên bố xóa bỏ chính quyền của địch, thành lập Ủy ban Nhân dân cách mạng lâm thời tỉnh Thái Nguyên, do đồng chí Lê Trung Đình làm Chủ tịch.",
     ],
     url: "/thainguyen",
-    images: ["img", "img"],
+    images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
     date: "20-8",
   },
   {
@@ -81,8 +85,8 @@ var locations = [
       "Ngày 21-8-1945, cuộc khởi nghĩa giành chính quyền ở thị xã Tuyên Quang giành thắng lợi.",
       " Sáng ngày 22-8-1945, thị xã Tuyên Quang sôi động náo nhiệt, cờ đỏ sao vàng, biểu ngữ được giương cao khắp các ngả đường.",
     ],
-    url:"/tuyenquang",
-    images: ["img", "img"],
+    url: "/tuyenquang",
+    images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
     date: "21-8",
   },
   {
@@ -92,7 +96,8 @@ var locations = [
     description: [
       "Tỉnh Bắc Giang là một trong những tỉnh đầu tiên khởi nghĩa giành được chính quyền cấp tỉnh vào ngày 18 tháng 8 năm 1945 tại thị xã Phủ Lạng Thương.",
     ],
-    images: ["img"],
+    url: "/bacgiang",
+    images: ["./IMG/cmt8.jpg"],
     date: "18-8",
   },
   {
@@ -102,7 +107,8 @@ var locations = [
     description: [
       "Ngày 17.8.1945, huyện Cẩm Giàng khởi nghĩa thành công, mở đầu cho Tổng khởi nghĩa giành chính quyền ở Hải Dương",
     ],
-    images: ["img"],
+    url: "/haiduong",
+    images: ["./IMG/cmt8.jpg"],
     date: "18-8",
   },
   {
@@ -113,7 +119,8 @@ var locations = [
       "Ngày 17-8-1945, Ủy ban Khởi nghĩa phân khu Nam Hà ra lệnh cho các huyện Thạch Hà, Cẩm Xuyên giành chính quyền, tạo hậu thuẫn cho Hà Tĩnh. Quần chúng cách mạng bao vây Đồn Trường, giải phóng tù nhân và buộc huyện trưởng giao ấn tín",
       "Sáng 18-8, Ủy ban Khởi nghĩa yêu cầu quân Nhật không can thiệp và tổ chức bao vây tỉnh lỵ, Tỉnh trưởng Hà Văn Đại đầu hàng, trao trả chính quyền. Cuộc khởi nghĩa thành công, chính quyền cách mạng lâm thời ra mắt vào trưa cùng ngày.",
     ],
-    images: ["img", "img"],
+    url: "/hatinh",
+    images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
     date: "18-8",
   },
   {
@@ -123,7 +130,8 @@ var locations = [
     description: [
       "Đêm 17.8.1945, nhận thấy tình hình thuận lợi, Thường trực Ủy ban bạo động báo cáo và được Tỉnh ủy quyết định khởi nghĩa giành chính quyền ở Hội An.",
     ],
-    images: ["img"],
+    url: "/quangnam",
+    images: ["./IMG/cmt8.jpg"],
     date: "18-8",
   },
   {
@@ -133,7 +141,8 @@ var locations = [
     description: [
       "Vào tháng 8/1945, nhân dân Thái Bình khởi nghĩa giành chính quyền dù chưa nhận lệnh từ Trung ương. Từ 18-23/8/1945, chính quyền ở các cấp đều về tay nhân dân. Ngày 25/8/1945, 1 vạn người tham dự mít tinh chào mừng Ủy ban nhân dân cách mạng lâm thời. Thắng lợi này mở ra kỷ nguyên độc lập, tự do cho Thái Bình",
     ],
-    images: ["img"],
+    url: "./thaibinh",
+    images: ["./IMG/cmt8.jpg"],
     date: "19-8",
   },
   {
@@ -143,7 +152,7 @@ var locations = [
     description: [
       "Cuộc khởi nghĩa giành chính quyền đã thắng lợi ở các huyện Yên Lãng (20-8-1945), Đông Anh (21-8-1945), Đa Phúc (23-8-1945). Ngày 30-8-1945, Ủy ban nhân dân cách mạng lâm thời tỉnh Phúc Yên thành lập.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "21-8",
   },
   {
@@ -155,7 +164,8 @@ var locations = [
       "Trưa 19-8: Từng đoàn người kéo về sân vận động Nha Trang, các đội tự vệ cách mạng và lực lượng yêu nước bám chặt  quan lại và những người Việt gian đầu sỏ để sẵn sàng trấn áp ngay hành động chống đối của họ.",
       " Đến 15 giờ, 19-8, lá cờ đỏ sao vàng được kéo lên, tuyên bố xóa bỏ chính quyền bù nhìn, giành chính quyền về tay Mặt trận Việt Minh",
     ],
-    images: ["img", "img", "img"],
+    url: "/khanhhoa",
+    images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
     date: "19-8",
   },
   {
@@ -165,7 +175,8 @@ var locations = [
     description: [
       "Cuộc khởi nghĩa giành chính quyền tại Bắc Ninh diễn ra nhanh chóng và giành thắng lợi: Huyện Tiên Du (17/8), Từ Sơn (18/8), Lang Tài, Yên Phong (19/8), Gia Bình, Thuận Thành (20/8), Tỉnh lỵ thành phố Bắc Ninh và Võ Giàng (20/8), Văn Giang (21/8), Quế Dương (22/8). Thành công này đánh dấu sự sụp đổ hoàn toàn của chính quyền tay sai phát-xít Nhật tại tỉnh Bắc Ninh.",
     ],
-    images: ["img"],
+    url: "/bacninh",
+    images: ["./IMG/cmt8.jpg"],
     date: "20-8",
   },
   {
@@ -178,7 +189,13 @@ var locations = [
       "Sau khi giành chính quyền tại tỉnh, ngày 21/8/1945, Việt Minh ở các huyện Yên Mô, Yên Khánh và Kim Sơn đã lãnh đạo quần chúng khởi nghĩa giành chính quyền.",
       " Ngày 25/8/1945, UBND Cách mạng lâm thời tỉnh Ninh Bình được thành lập, đánh dấu kết thúc thắng lợi cuộc khởi nghĩa trong Cách mạng Tháng Tám trên toàn tỉnh.",
     ],
-    images: ["img", "img", "img", "img"],
+    url: "/ninhbinh",
+    images: [
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+    ],
     date: "20-8",
   },
   {
@@ -189,7 +206,8 @@ var locations = [
       "Ngày 21/8, Ủy ban Khởi nghĩa chính thức tiếp quản thị xã, địa bàn cuối cùng của tỉnh Yên Bái được giải phóng.",
       "Ngày 22/8/1945, hàng ngàn người dân thị xã và các vùng xung quanh tập trung ở vườn hoa Nhà Kèn, dự mít tinh chào mừng khởi nghĩa Yên Bái thắng lợi, chấm dứt chế độ thực dân, phong kiến, một kỷ nguyên mới ra đời, kỷ nguyên của một nước độc lập, tự do.",
     ],
-    images: ["img", "img"],
+    url: "/yenbai",
+    images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
     date: "20-8",
   },
   {
@@ -200,7 +218,7 @@ var locations = [
       "Ngày 21-8-1945, các đơn vị quân giải phóng, lực lượng tự vệ và nhân dân vùng giải phóng tiến vào thị xã, xóa bỏ chính quyền tay sai của Nhật",
       "Ngày 23-8-1945, đoàn xe chở 400 quân Nhật rút khỏi thị xã Bắc Kạn, toàn tỉnh Bắc Kạn sạch bóng quân thù.",
     ],
-    images: ["img", "img"],
+    images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
     date: "21-8",
   },
   {
@@ -210,7 +228,8 @@ var locations = [
     description: [
       "Sau quá trình đấu tranh của nhân dân, ngày 21-8, cuộc mít tinh lớn được tổ chức tại Dốc Lò Trâu (phía đường Hưng Yên, phía phải đường Trường Chinh hiện nay). Trước lễ đài rợp màu băng rôn, cờ đỏ sao vàng, gần ba vạn nhân dân nội, ngoại thành mừng vui khởi nghĩa thắng lợi và lắng nghe hiệu triệu của Việt Minh về thực hiện 10 chính sách của Mặt trận Việt Minh. Uỷ ban Khởi nghĩa tuyên bố xóa bỏ chính quyền bù nhìn, thiết lập chính quyền cách mạng.",
     ],
-    images: ["img"],
+    url: "/namdinh",
+    images: ["./IMG/cmt8.jpg"],
     date: "21-8",
   },
   {
@@ -220,7 +239,8 @@ var locations = [
     description: [
       "Cuộc khởi nghĩa giành chính quyền tháng 8/1945 trong cả tỉnh Nghệ An rộng lớn đã thắng lợi rực rỡ trong vòng 9 ngày. Thắng lợi của cuộc khởi nghĩa giành chính quyền ở Nghệ An là kết quả của cả một quá trình đấu tranh, lâu dài, đầy gian khổ, hi sinh và phức tạp của các tầng lớp nhân dân, kể từ lúc thực dân Pháp đặt chân lên đất Nghệ An. Đó cũng là tất yếu của những cuộc diễn tập nhiều xương máu, hi sinh của Đảng bộ và nhân dân tỉnh Nghệ An.",
     ],
-    images: ["img"],
+    url: "/nghean",
+    images: ["./IMG/cmt8.jpg"],
     date: "21-8",
   },
   {
@@ -230,7 +250,8 @@ var locations = [
     description: [
       "Ngày 21/8/1945, khởi nghĩa giành chính quyền trong Cách mạng Tháng Tám năm 1945 ở Ninh Thuận thành công, chính quyền về tay Nhân dân. Ninh Thuận tự hào là một trong ba tỉnh giành chính quyền thắng lợi sớm nhất miền Nam (sau Quảng Nam 18/8 và Khánh Hòa 19/8).",
     ],
-    images: ["img"],
+    url: "/ninhthuan",
+    images: ["./IMG/cmt8.jpg"],
     date: "21-8",
   },
   {
@@ -241,7 +262,8 @@ var locations = [
       "Rạng sáng 21/8/1945, dưới sự hỗ trợ của nhân dân, một bộ phận quân giải phóng tỉnh đã vượt sông Hiến tiến vào thị xã.",
       " Sáng 22/8/1945, UBND lâm thời tỉnh và thị xã tổ chức cuộc tuần hành trên đường phố để biểu dương lực lượng cách mạng, sau đó tổ chức mít tinh tuyên bố xóa bỏ chính quyền Nhật và tay sai, đồng thời thành lập UBND lâm thời thị xã.",
     ],
-    images: ["img", "img"],
+    url: "/caobang",
+    images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
     date: "22-8",
   },
   {
@@ -252,7 +274,8 @@ var locations = [
       "Tại tỉnh Hưng Yên, từ ngày 14 đến ngày 21/8/1845 cuộc khởi nghĩa vũ trang giành chính quyền thắng lợi lần lượt tại các huyện trên địa bàn tỉnh.",
       "Ngày 22/8/1945, hàng vạn người tiến vào tỉnh lỵ biểu tình, mít tinh giành chính quyền, Ủy ban Nhân dân Cách mạng lâm thời tỉnh Hưng Yên được thành lập",
     ],
-    images: ["img", "img"],
+    url: "/hungyen",
+    images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
     date: "22-8",
   },
   {
@@ -262,7 +285,7 @@ var locations = [
     description: [
       "Tháng Tám năm 1945, Hải Phòng - Kiến An sục sôi hào khí cách mạng cùng cả nước. Bắt đầu từ tiếng trống Kim Sơn, giành chính quyền ở huyện Kiến Thụy ngày 15-8-1945, huyện An Lão (17-8), Vĩnh Bảo (20-8), Tiên Lãng (20-8), Thủy Nguyên (22-8); để đến sáng ngày 23-8-1945, tại cuộc mít tinh có cả vạn người tham gia ở trung tâm thành phố, Ủy ban khởi nghĩa thành phố tuyên bố xóa bỏ chính quyền tay sai phát xít Nhật, thành lập Ủy ban cách mạng lâm thời Hải Phòng.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "22-8",
   },
   {
@@ -272,7 +295,8 @@ var locations = [
     description: [
       " Ngày 21-8-1945, Tỉnh ủy Tân An chớp thời cơ lãnh đạo nhân dân trong tỉnh đứng lên khởi nghĩa giành chính quyền trong phạm vi toàn tỉnh. Cuộc khởi nghĩa giành chính quyền trong toàn tỉnh Tân An sau hơn 24 giờ, kể từ 13 giờ ngày 21-8 đến chiều 22-8",
     ],
-    images: ["img"],
+    url: "/longan",
+    images: ["./IMG/cmt8.jpg"],
     date: "22-8",
   },
   {
@@ -282,7 +306,7 @@ var locations = [
     description: [
       "Trong vòng 7 ngày (từ ngày 20 - 26/8/1945), Đảng bộ tỉnh chỉ có 9 đảng viên đã lãnh đạo Nhân dân các dân tộc trong tỉnh nổi dậy giành chính quyền thắng lợi trọn vẹn, góp phần cùng cả nước lập nên thắng lợi vĩ đại trong Cách mạng Tháng Tám năm 1945.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "23-8",
   },
   {
@@ -292,7 +316,8 @@ var locations = [
     description: [
       " Trong đêm 22 rạng sáng ngày 23 tháng 8 năm 1945, cuộc khởi nghĩa giành chính quyền nổ ra và thắng lợi ở các phủ lỵ, huyện lỵ,Quảng Ninh, Bố Trạch, Lệ Thủy, Quảng Trạch, Tuyên Hóa. Đa số Ủy ban khởi nghĩa các phủ, huyện lập tức chuyển thành Ủy ban Nhân dân cách mạng lâm thời ra mắt nhân dân ngay sau khi chiếm xong phủ ly, huyện ly. Riêng huyện Tuyên Hóa, ngày 25 tháng 8 năm 1945, tỉnh cử cán bộ lên cùng với Mặt trận Việt Minh huyện tổ chức mít tinh tuyên bố giải tán ngụy quyền cấp huyện, thành lập chính quyền cách mạng.",
     ],
-    images: ["img"],
+    url: "/quangbinh",
+    images: ["./IMG/cmt8.jpg"],
     date: "23-8",
   },
   {
@@ -303,7 +328,7 @@ var locations = [
       "5 giờ sáng ngày 23/8/1945, đồng chí Trần Hữu Dực trèo lên tầng trên dinh tỉnh trưởng (tức Tòa công sứ Pháp) giật phăng lá cờ bù nhìn xuống, kéo lên lá cờ đỏ sao vàng tung bay kiêu hãnh. Ở hành cung trong thành Dương Đậu, cờ cách mạng cũng được kéo lên, chấm dứt chế độ phong kiến, thực dân.",
       "Đến 9 giờ ngày 23/8/1945, trước tòa công sứ Pháp, một cuộc mít tinh lớn được tổ chức với hàng ngàn quần chúng nhân dân tham gia. Thay mặt Ủy ban khởi nghĩa tỉnh, đồng chí Trần Hữu Dực trịnh trọng tuyên bố: xóa bỏ chính quyền cũ, thành lập chính quyền cách mạng.",
     ],
-    images: ["img", "img"],
+    images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
     date: "23-8",
   },
   {
@@ -313,7 +338,8 @@ var locations = [
     description: [
       "Trong chín ngày, từ 23 đến 31 tháng 8 năm 1945, cuộc khởi nghĩa trong toàn tỉnh đã giành được thắng lợi rực rỡ. Với thắng lợi của Cách mạng tháng Tám, nhân dân Bình Định thoát khỏi cảnh sống của dân nô lệ, trở thành người làm chủ đất nước.",
     ],
-    images: ["img"],
+    url: "/binhdinh",
+    images: ["./IMG/cmt8.jpg"],
     date: "23-8",
   },
   {
@@ -323,7 +349,7 @@ var locations = [
     description: [
       "Chỉ trong vòng 7 ngày (từ 22 đến 28/8/1945) với khí thế cách mạng của quần chúng nhân dân mà hạt nhân là lãnh đạo các chi bộ Đảng, các tổ chức quần chúng và lực lượng tự vệ, nhân dân hai tỉnh Lâm Viên và Đồng Nai Thượng (Lâm Đồng ngày nay) đã tiến hành khởi nghĩa giành chính quyền thắng lợi, thành lập chính quyền Việt Minh từ tỉnh đến cơ sở.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "23-8",
   },
   {
@@ -333,7 +359,7 @@ var locations = [
     description: [
       "Đúng 10 giờ sáng 23-8-1945, các tầng lớp nhân dân thị xã, các vùng lân cận; đại diện lực lượng khởi nghĩa của huyện An Khê và lực lượng binh lính bảo an giác ngộ dự cuộc mít tinh lớn tại sân vận động trung tâm thị xã Pleiku dưới rừng cờ đỏ sao vàng Tổ quốc tung bay, trong niềm kiêu hãnh, hân hoan vui mừng của mọi người. Tại cuộc mít tinh, ông Trần Ngọc Vỹ, đại diện lực lượng quần chúng khởi nghĩa tuyên bố xóa bỏ hoàn toàn bộ máy chính quyền cũ, thành lập chính quyền cách mạng, kêu gọi đồng bào các dân tộc trong tỉnh triệt để thi hành các chủ trương, chính sách đoàn kết dân tộc của Mặt trận Việt Minh, ủng hộ Ủy ban Dân tộc giải phóng do Hồ Chí Minh làm Chủ tịch",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "23-8",
   },
   {
@@ -343,7 +369,7 @@ var locations = [
     description: [
       "Sáng 23/8/1945, lực lượng ta tập trung bao vây khép kín dinh Tỉnh trưởng. Trước khí thế cách mạng sôi sục, Tỉnh trưởng Thiện buộc phải đầu hàng. Sau đó, liên tiếp những cuộc mít-tinh gây áp lực cho phe địch sau đó đã diễn ra. Từ ngày 23 - 25/8 ở Bạc Liêu, chính quyền của địch từ tỉnh đến quận và cơ sở đã về tay Nhân dân.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "23-8",
   },
   {
@@ -353,7 +379,8 @@ var locations = [
     description: [
       "Ban Cán sự Việt Minh họp kiểm điểm tình hình mọi mặt và quyết định khởi nghĩa vào ngày 24/8 để cùng phối hợp lực lượng khởi nghĩa giành chính quyền tỉnh lỵ ở thị xã Phủ Lý. Vào hồi 5 giờ sáng ngày 24/8, hơn một ngàn tự vệ cùng đông đảo quần chúng cách mạng tiến về tập kết tại cơ sở Thượng Tổ. Sau khi lực lượng cách mạng bao vây chính quyền địch ở thị xã Phủ Lý, bọn ngụy quyền ở Thanh Liêm khiếp nhược trước thế lực của Cách mạng, vội vã đầu hàng.",
     ],
-    images: ["img"],
+    url: "/hanam",
+    images: ["./IMG/cmt8.jpg"],
     date: "24-8",
   },
   {
@@ -364,7 +391,7 @@ var locations = [
       "Ngày 19-8-1945, nhân dân Hà Nội giành được chính quyền trọn vẹn. Tin vui này đã thôi thúc nhân dân Quảng Ninh tiếp tục đứng lên",
       "Ngày 24-8-1945, tại TX Quảng Yên, UBND Cách mạng lâm thời của tỉnh đã ra mắt nhân dân.",
     ],
-    images: ["img", "img"],
+    images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
     date: "24-8",
   },
   {
@@ -374,7 +401,8 @@ var locations = [
     description: [
       "Chiều ngày 24/8/1945, tại sân vận động thị xã, cuộc mít tinh giành chính quyền diễn ra trước sự chứng kiến của hơn 3.000 nhân dân thuộc mọi giai cấp, dân tộc. Đại diện của Việt Minh lên lễ đài, nhân danh cách mạng tuyên bố xóa bỏ chế độ thống trị của Nhật và tay sai, tuyên bố thành lập chính quyền cách mạng.",
     ],
-    images: ["img"],
+    url: "/daklak",
+    images: ["./IMG/cmt8.jpg"],
     date: "24-8",
   },
   {
@@ -385,7 +413,8 @@ var locations = [
       "Ngay sau khi nhận mệnh lệnh tổng khởi nghĩa của Xứ ủy Trung kỳ, ngày 23/8/1945, Tỉnh ủy lâm thời và Ủy ban Việt Minh lâm thời tỉnh họp quyết định tổng khởi nghĩa vào nửa đêm 24/8/1945.",
       "Trong đêm 24 rạng sáng 25/8/1945, Ủy ban Khởi nghĩa lần lượt chiếm đồn khố xanh Sông Cầu, kéo đến dinh tỉnh trưởng, ra lệnh tỉnh trưởng đầu hàng giao nộp tài liệu, ấn tín cho Ủy ban Khởi nghĩa; tuyên bố chính quyền thực dân phong kiến bị xóa bỏ.",
     ],
-    images: ["img", "img"],
+    url: "/phuyen",
+    images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
     date: "24-8",
   },
   {
@@ -395,7 +424,7 @@ var locations = [
     description: [
       "Cách mạng Tháng Tám năm 1945 ở Gò Công thành công nhanh chóng là do toàn dân đoàn kết, đồng lòng vùng dậy khởi nghĩa giành lại chính quyền về tay nhân dân dưới sự lãnh đạo của Đảng.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "24-8",
   },
   {
@@ -405,7 +434,7 @@ var locations = [
     description: [
       "Cách mạng Tháng Tám năm 1945 ở Mỹ Tho thành công nhanh chóng là do toàn dân đoàn kết, đồng lòng vùng dậy khởi nghĩa giành lại chính quyền về tay nhân dân dưới sự lãnh đạo của Đảng.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "18-8",
   },
   {
@@ -415,7 +444,8 @@ var locations = [
     description: [
       "Ngay đêm 24/8, các lực lượng vũ trang tiến về giải phóng tỉnh lỵ, rạng sáng 25/8, lực lượng cách mạng tiến vào thị xã. Ngay chiều hôm đó, Tỉnh bộ Việt Minh tổ chức mít tinh tuyên bố xóa bỏ chính quyền thực dân phong kiến, công bố 10 chính sách của Việt Minh, kêu gọi Nhân dân đoàn kết bảo vệ quê hương, ủng hộ Chính phủ lâm thời do Chủ tịch Hồ Chí Minh đứng đầu",
     ],
-    images: ["img"],
+    url: "/langson",
+    images: ["./IMG/cmt8.jpg"],
     date: "25-8",
   },
   {
@@ -425,7 +455,8 @@ var locations = [
     description: [
       "Đến ngày 22/8/1945 tất cả 11 phủ, châu, huyện của tỉnh Phú Thọ đã tiến hành khởi nghĩa thành công. Sáng ngày 25-8-1945, theo đúng kế hoạch đã vạch ra, các thành viên UBND cách mạng lâm thời tỉnh đã dẫn đầu từng đơn vị LLVT đến tiếp quản các công sở. Công việc chiếm đóng các công sở, xóa bỏ chính quyền bù nhìn tay sai Nhật diễn ra mau lẹ. Ngày 25/8/1945 cũng là ngày kết thúc thắng lợi cuộc khởi nghĩa trong Cách mạng tháng Tám trên phạm vi toàn tỉnh",
     ],
-    images: ["img"],
+    url: "/phutho",
+    images: ["./IMG/cmt8.jpg"],
     date: "25-8",
   },
   {
@@ -435,7 +466,7 @@ var locations = [
     description: [
       "Tháng 8-1945, cùng với cả nước, ngày 25-8-1945, nhân dân Kon Tum đã nổi dậy giành chính quyền. Chính quyền cách mạng tổ chức lại tỉnh Kon Tum thành 4 đơn vị hành chính gồm các huyện Đăk Glei, Đăk Tô, Konplong và thành phố Kon Tum.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "25-8",
   },
   {
@@ -445,7 +476,7 @@ var locations = [
     description: [
       "Đến ngày 24/8/1945, chính quyền tỉnh Bình Thuận và huyện Hàm Thuận đã về tay nhân dân. Sau ngày khởi nghĩa, Ủy ban Nhân dân cách mạng lâm thời tỉnh Bình Thuận được thành lập.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "25-8",
   },
   {
@@ -458,7 +489,12 @@ var locations = [
       " Ngày 25/8, nhân dân các làng Hưng Khánh Trung, Phước Mỹ Trung rải truyền đơn, căng biểu ngữ. Cùng ngày, Ủy ban Khởi nghĩa tấn công Dinh Thủ hộ, kho bạc, trại giam, và Dinh Tỉnh trưởng, khiến quân Bảo an binh không dám phản kháng, chính quyền thân Nhật bị lật đổ. Chính quyền cách mạng được thành lập vào 17 giờ ngày 25/8. Khởi nghĩa giành thắng lợi ở các quận Mỏ Cày, Ba Tri, Thạnh Phú.",
       "Sáng 26/8, UBND Cách mạng lâm thời do Phạm Văn Bạch làm Chủ tịch ra mắt nhân dân tại Sân vận động tỉnh.",
     ],
-    images: ["img", "img", "img", "img"],
+    images: [
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+    ],
     date: "25-8",
   },
   {
@@ -473,7 +509,13 @@ var locations = [
       "Đêm 25/8, Xứ ủy Nam Kỳ quyết định giải phóng tù chính trị ở Côn Đảo. Cách mạng Tháng Tám đã thành công, mở ra một trang sử mới cho Bà Rịa - Vũng Tàu.",
       " Ngày 28/8, tại Vũng Tàu, Dương Bạch Mai tuyên bố chính quyền đã về tay Nhân dân.",
     ],
-    images: ["img", "img", "img", "img", "img"],
+    images: [
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+    ],
   },
   {
     lat: 10.5,
@@ -482,7 +524,7 @@ var locations = [
     description: [
       "Chỉ trong vòng 7 ngày (từ ngày 22 đến 28/8/1945), nhân dân Long Xuyên và Châu Đốc, dưới sự lãnh đạo của Đảng, đã kiên cường đứng lên, lật đổ ách thống trị của bọn thực dân và tay sai, giải phóng mình khỏi 78 năm sống trong nô lệ và áp bức dưới chế độ phong kiến. Họ đã giành lại quyền làm chủ cuộc đời, mở ra một trang sử mới đầy hy vọng cho dân tộc.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "25-8",
   },
   {
@@ -492,7 +534,7 @@ var locations = [
     description: [
       "Chỉ trong vòng 7 ngày (từ ngày 22 đến 28/8/1945), nhân dân Long Xuyên và Châu Đốc, dưới sự lãnh đạo của Đảng, đã kiên cường đứng lên, lật đổ ách thống trị của bọn thực dân và tay sai, giải phóng mình khỏi 78 năm sống trong nô lệ và áp bức dưới chế độ phong kiến. Họ đã giành lại quyền làm chủ cuộc đời, mở ra một trang sử mới đầy hy vọng cho dân tộc.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "26-8",
   },
   {
@@ -502,7 +544,7 @@ var locations = [
     description: [
       "Vào ngày 28/8/1945, Ủy ban Khởi nghĩa tỉnh Vĩnh Long tổ chức một cuộc mít tinh lớn tại sân vận động Vĩnh Long (nay là UBND Tỉnh Vĩnh Long), thu hút hàng vạn người tham gia. Các đoàn người từ các khu vực xung quanh thị xã tụ tập, cờ đỏ sao vàng bay rợp trời, cùng với nhiều khẩu hiệu, băng rôn được treo khắp nơi. Người dân tỉnh Vĩnh Long cùng nhau tham gia khởi nghĩa giành lại chính quyền.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "25-8",
   },
   {
@@ -512,39 +554,57 @@ var locations = [
     description: [
       'Vào tháng 5/1945, tổ chức Thanh niên Tiền phong Trà Vinh được thành lập, sau đó tổ chức Thanh niên Tiền phong xã Long Vĩnh ra đời dưới sự lãnh đạo của Đỗ Xuân Quang. Tổ chức này phát triển lực lượng, xâm nhập vào hàng ngũ binh lính địch và thực hiện công tác binh địch vận. Đình Khánh Hưng trở thành nơi hội họp, huấn luyện các lực lượng cách mạng và tổ chức "Tuần lễ vàng" để quyên góp tiền và dụng cụ chế tạo vũ khí. Đình Khánh Hưng cũng là cơ sở quan trọng bảo vệ các cán bộ cách mạng.',
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "25-8",
   },
   {
     lat: 9.6,
     lng: 105.9739,
     title: "Sóc Trăng",
-    description: [],
-    images: ["img"],
+    description: [
+      "Ngày 9/3/1945, Nhật đảo chính Pháp và tiến chiếm Sóc Trăng",
+      "Ngày 15/3/1945, Ủy ban cai trị được thành lập, do Đốc phủ sứ Võ Văn Đảnh đứng đầu.",
+      "Ngày 17/3/1945, Đội thanh niên bảo an ra đời, tuyên bố bảo vệ an ninh và độc lập dân tộc, nhưng chưa rõ ràng về chính trị. Tỉnh ủy lâm thời Sóc Trăng giải thích sự thật và hướng dẫn đội theo đường lối của Đảng.",
+      "Ngày 25/3/1945, Đội thanh niên bảo an tổ chức mít tinh và phá bỏ tượng đồng “Hai Hình” của thực dân Pháp, tạo động lực lớn cho cuộc tổng khởi nghĩa giành chính quyền tại Sóc Trăng.",
+    ],
+    images: [
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+      "./IMG/cmt8.jpg",
+    ],
     date: "25-8",
   },
   {
     lat: 11.3333,
     lng: 106.1,
     title: "Tây Ninh",
-    description: [],
-    images: ["img"],
+    description: [
+      "Ở Tây Ninh, Tổng khởi nghĩa Tháng Tám ở Tây Ninh đã diễn ra nhanh chóng và giành thắng lợi hoàn toàn, chỉ trong một ngày đêm (25/8/1945), chính quyền ngụy từ tỉnh đến quận đều sụp đổ hoàn toàn, và ba ngày sau chính quyền các xã đều thuộc về tay Nhân dân.",
+    ],
+    url: "/tayninh",
+    images: ["./IMG/cmt8.jpg"],
     date: "25-8",
   },
   {
     lat: 21.3333,
     lng: 103.9,
     title: "Sơn La",
-    description: [],
-    images: ["img"],
+    description: [
+      "Tháng 8/1945, khởi nghĩa giành chính quyền nổ ra mạnh mẽ ở Sơn La. Ngày 19/8, Mường Chanh thắng lợi, lan rộng ra các châu khác như Mường La, Thuận Châu, Mai Sơn, Yên Châu. Phù Yên giành chính quyền sớm nhất (23/7). Ngày 25/8, tỉnh lỵ Sơn La đầu hàng. Ngày 26/8, mít tinh lớn tại đồi Khau Cả, Ủy ban cách mạng lâm thời ra mắt, tuyên bố Sơn La hoàn toàn giải phóng.",
+    ],
+    url: "/sonla",
+    images: ["./IMG/cmt8.jpg"],
     date: "25-8",
   },
   {
     lat: 10.95,
     lng: 106.8167,
     title: "Biên Hòa",
-    description: [],
-    images: ["img"],
+    description: [
+      "Chỉ trong đêm 25 và buổi sáng 26-8, các cơ quan, công sở ở tỉnh Biên Hòa hầu hết bị lực lượng của ta chiếm giữ, bố trí canh gác, bảo vệ chặt chẽ. Trước áp lực mạnh mẽ của phong trào cách mạng, tỉnh trưởng Biên Hòa buộc phải bàn giao chính quyền. Tổng khởi nghĩa thành công trên phạm vi toàn tỉnh",
+    ],
+    images: ["./IMG/cmt8.jpg"],
     date: "26-8",
   },
   {
@@ -554,31 +614,38 @@ var locations = [
     description: [
       "Sáng 26/8/1945, hơn 20.000 người dân từ Cần Thơ và các quận lân cận tập trung tại sân vận động Cần Thơ (hiện nay là Hội trường thành uỷ), mang cờ, khẩu hiệu và băng rôn. Trên lễ đài, đồng chí Huỳnh Phan Hộ đại diện Ủy ban Giải phóng Dân tộc tỉnh kêu gọi đồng bào đoàn kết giành chính quyền. Sau buổi mít tinh, trước khí thế quật khởi của quần chúng, Tỉnh trưởng Lưu Văn Tào phải giao chính quyền và giải tán chính quyền bù nhìn. Đồng chí Trần Ngọc Quế tuyên bố chính quyền về tay Nhân dân, bãi bỏ thuế vô lý, trả tự do cho tù chính trị, bảo vệ tài sản nhân dân và tịch thu tài sản thực dân Pháp. Cuộc khởi nghĩa lan rộng, thành công tại nhiều địa phương trong tỉnh, đánh dấu thắng lợi của Cách mạng Tháng Tám ở Cần Thơ.",
     ],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "26-8",
   },
   {
     lat: 15.1205,
     lng: 108.7923,
     title: "Quảng Ngãi",
-    description: [],
-    images: ["img"],
+    description: [
+      "Đến rạng sáng ngày 30/8/1945, hàng chục vạn quần chúng từ khắp các địa phương trong tỉnh kéo về tỉnh lỵ cùng quần chúng nhân dân ở Thị xã Quảng Ngãi tham dự mít tinh chào mừng lễ ra mắt Ủy ban nhân dân cách mạng lâm thời tỉnh Lê Trung Đình.",
+    ],
+    url: "/quangngai",
+    images: ["./IMG/cmt8.jpg"],
     date: "28-8",
   },
   {
     lat: 10.9804,
     lng: 106.6519,
     title: "Thủ Dầu Một",
-    description: [],
-    images: ["img"],
+    description: [
+      "Đêm 24/8/1945, tại TX.Thủ Dầu Một, lực lượng tự vệ và nhân dân đã tấn công tỉnh lỵ. Lực lượng cách mạng ồ ạt tấn công khiến lính Nhật, bọn bảo an, cảnh sát chính quyền phản động phải đầu hàng không điều kiện. Lá cờ đỏ sao vàng tung bay phất phới trên dinh Tỉnh trưởng. Chính quyền đã về tay nhân dân.",
+    ],
+    images: ["./IMG/cmt8.jpg"],
     date: "25-8",
   },
   {
     lat: 10.2909,
     lng: 105.756,
     title: "Sa Đéc (Đồng Tháp)",
-    description: [],
-    images: ["img"],
+    description: [
+      "Tháng 8 năm 1945, khi phát xít Nhật đầu hàng, Tỉnh ủy lâm thời Sa Đéc đã quyết định khởi nghĩa giành chính quyền vào ngày 25 tháng 8. Tại Cao Lãnh, hàng nghìn người dân đã chiếm giữ các cơ quan trọng yếu và buộc quận trưởng phải giao chính quyền. Cùng ngày, tại Sa Đéc, tỉnh trưởng cũng phải bàn giao chính quyền cho Ủy ban khởi nghĩa trước áp lực của quần chúng. Trước đó, ngày 22 tháng 8, Hồng Ngự đã giành chính quyền thành công. Đến 14 giờ ngày 25 tháng 8, toàn bộ chính quyền tỉnh Sa Đéc thuộc về tay nhân dân. Thắng lợi này là kết quả của sự lãnh đạo đúng đắn của Đảng, sức mạnh đoàn kết của nhân dân, và sự kế thừa từ các phong trào cách mạng trước đó, viết nên trang sử vẻ vang của Đồng Tháp.",
+    ],
+    images: ["./IMG/cmt8.jpg"],
     date: "25-8",
   },
   {
@@ -586,7 +653,7 @@ var locations = [
     lng: 105.0809,
     title: "Rạch Giá (Kiên Giang)",
     description: [],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "27-8",
   },
   {
@@ -594,7 +661,7 @@ var locations = [
     lng: 105.0809,
     title: "Đồng Nai Thượng (Lâm Đồng)",
     description: [],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "28-8",
   },
   {
@@ -602,7 +669,7 @@ var locations = [
     lng: 104.4876,
     title: "Hà Tiên (Kiên Giang)",
     description: [],
-    images: ["img"],
+    images: ["./IMG/cmt8.jpg"],
     date: "28-8",
   },
 ];
@@ -611,7 +678,23 @@ var currentPopup = null;
 var markers = [];
 
 locations.forEach(function (location, index) {
-  var marker = new mapboxgl.Marker()
+  const customMarker = document.createElement("div");
+  customMarker.innerHTML = `
+  <svg width="40" height="50" viewBox="0 0 24 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Phần nền marker (thon gọn hơn) -->
+    <path fill="red" d="M12 2C7.5 2 3.5 5 3.5 10c0 4.5 4.5 10.5 8.5 14 4-3.5 8.5-9.5 8.5-14 0-5-4-8-8.5-8z"/>
+    
+    <circle cx="12" cy="10" r="5.5" fill="white"/>
+
+    <circle cx="12" cy="10" r="4.8" fill="red"/>
+
+    <polygon fill="yellow" points="12,7 13.2,9.2 15.5,9.5 13.8,11 14.2,13 12,12 9.8,13 10.2,11 8.5,9.5 10.8,9.2"/>
+  </svg>
+`;
+  customMarker.style.width = "50px";
+  customMarker.style.height = "50px";
+  // {color :"red"}
+  var marker = new mapboxgl.Marker(customMarker)
     .setLngLat([location.lng, location.lat])
     .addTo(map);
 
@@ -625,22 +708,22 @@ locations.forEach(function (location, index) {
   location.images.forEach((img, imgIndex) => {
     let content = location.description[imgIndex] || "Không có mô tả.";
     slidesHTML += `
-                                            <div class="mySlides" data-location="${index}">
-                                                <img src="${img}" style="width:100%">
-                                                <div class="slide-content">${content}</div>
-                                            </div>
-                                        `;
+                                        <div class="mySlides" data-location="${index}">
+                                            <img src="${img}" style="width:100%">
+                                            <div class="slide-content">${content}</div>
+                                        </div>
+                                    `;
   });
 
   // Tạo popup với slideshow
   var popup = new mapboxgl.Popup({ closeButton: true }).setHTML(`
-    <h1>${location.title}</h1>
-    <div class="slideshow-container">
-        ${slidesHTML}
-        <a class="prev" onclick="plusSlides(-1, ${index})">❮</a>
-        <a class="next" onclick="plusSlides(1, ${index})">❯</a>
-    </div>
-    <button class="link" onclick="window.location.href='${location.url}'">Xem thêm thông tin</button>
+<h1>${location.title}</h1>
+<div class="slideshow-container">
+    ${slidesHTML}
+    <a class="prev" onclick="plusSlides(-1, ${index})">❮</a>
+    <a class="next" onclick="plusSlides(1, ${index})">❯</a>
+</div>
+<button class="link" onclick="window.location.href='${location.url}'">Xem thêm thông tin</button>
 `);
 
   marker.setPopup(popup);
