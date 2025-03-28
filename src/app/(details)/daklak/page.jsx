@@ -10,12 +10,11 @@ export default function daklak() {
         <header>
           <nav>
             <Link href="/" className="active">
-              Home
+              Trang chủ
             </Link>
-            <Link href="#">About</Link>
-            <Link href="#">Portfolio</Link>
-            <Link href="#">Services</Link>
-            <Link href="#">Contact</Link>
+            <Link href="/">Giới thiệu</Link>
+            <Link href="/">Dịch vụ</Link>
+            <Link href="/">Liên hệ</Link>
           </nav>
         </header>
         <div className="carousel">
@@ -29,8 +28,7 @@ export default function daklak() {
                 <div className="name">
                   Di tích lịch sử Trụ sở Ủy ban khởi nghĩa tỉnh Đắk Lắk 1945
                 </div>
-                <div className="des">
-                </div>
+                <div className="des"></div>
               </div>
             </div>
             <div
@@ -42,8 +40,7 @@ export default function daklak() {
                 <div className="name">
                   Di tích lịch sử Trụ sở Ủy ban khởi nghĩa tỉnh Đắk Lắk 1945
                 </div>
-                <div className="des">
-                </div>
+                <div className="des"></div>
               </div>
             </div>
           </div>

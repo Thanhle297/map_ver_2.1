@@ -1,25 +1,23 @@
 import Link from "next/link";
 import Script from "next/script";
 import React from "react";
-import './style.scss';
+import "./style.scss";
 // import "/public/HN/style.css"
 
 export default function HN() {
   return (
     <>
-    {/* <link rel="stylesheet" href="./HN/style.css" /> */}
-
+      {/* <link rel="stylesheet" href="./HN/style.css" /> */}
 
       <div>
         <header>
           <nav>
             <Link href="/" className="active">
-              Home
+              Trang chủ
             </Link>
-            <Link href="#">About</Link>
-            <Link href="#">Portfolio</Link>
-            <Link href="#">Services</Link>
-            <Link href="#">Contact</Link>
+            <Link href="/">Giới thiệu</Link>
+            <Link href="/">Dịch vụ</Link>
+            <Link href="/">Liên hệ</Link>
           </nav>
         </header>
         <div className="carousel">
@@ -174,7 +172,7 @@ export default function HN() {
         </div>
       </div>
 
-      <Script src="./HN/app.js"></Script>
+      <Script src="./JS/app.js"></Script>
     </>
   );
 }

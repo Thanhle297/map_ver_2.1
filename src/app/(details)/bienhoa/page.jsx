@@ -10,12 +10,11 @@ export default function tayninh() {
         <header>
           <nav>
             <Link href="/" className="active">
-              Home
+              Trang chủ
             </Link>
-            <Link href="#">About</Link>
-            <Link href="#">Portfolio</Link>
-            <Link href="#">Services</Link>
-            <Link href="#">Contact</Link>
+            <Link href="/">Giới thiệu</Link>
+            <Link href="/">Dịch vụ</Link>
+            <Link href="/">Liên hệ</Link>
           </nav>
         </header>
         <div className="carousel">
@@ -33,10 +32,10 @@ export default function tayninh() {
                   lần thứ hai. Cầu được xây dựng năm 1924, nhưng nổi tiếng hơn
                   sau các cuộc tấn công tàn bạo của Pháp vào năm 1946. Sau khi
                   quân Pháp thất bại trong trận phục kích tại Bàu Năng, chúng đã
-                  bắt và giết 11 người, bêu đầu một số nạn nhân tại Bửu Hưng Tự. Để
-                  tưởng niệm, khu di tích Bửu Hưng Tự được tôn tạo với cầu, nhà
-                  lồng chợ cũ và tượng đài khắc họa hình ảnh những người mẹ, vợ,
-                  con khóc thương người thân hy sinh, thể hiện sức mạnh đấu
+                  bắt và giết 11 người, bêu đầu một số nạn nhân tại Bửu Hưng Tự.
+                  Để tưởng niệm, khu di tích Bửu Hưng Tự được tôn tạo với cầu,
+                  nhà lồng chợ cũ và tượng đài khắc họa hình ảnh những người mẹ,
+                  vợ, con khóc thương người thân hy sinh, thể hiện sức mạnh đấu
                   tranh và lòng căm thù giặc, giáo dục truyền thống yêu nước cho
                   thế hệ mai sau.
                 </div>
@@ -55,10 +54,10 @@ export default function tayninh() {
                   lần thứ hai. Cầu được xây dựng năm 1924, nhưng nổi tiếng hơn
                   sau các cuộc tấn công tàn bạo của Pháp vào năm 1946. Sau khi
                   quân Pháp thất bại trong trận phục kích tại Bàu Năng, chúng đã
-                  bắt và giết 11 người, bêu đầu một số nạn nhân tại Bửu Hưng Tự. Để
-                  tưởng niệm, khu di tích Bửu Hưng Tự được tôn tạo với cầu, nhà
-                  lồng chợ cũ và tượng đài khắc họa hình ảnh những người mẹ, vợ,
-                  con khóc thương người thân hy sinh, thể hiện sức mạnh đấu
+                  bắt và giết 11 người, bêu đầu một số nạn nhân tại Bửu Hưng Tự.
+                  Để tưởng niệm, khu di tích Bửu Hưng Tự được tôn tạo với cầu,
+                  nhà lồng chợ cũ và tượng đài khắc họa hình ảnh những người mẹ,
+                  vợ, con khóc thương người thân hy sinh, thể hiện sức mạnh đấu
                   tranh và lòng căm thù giặc, giáo dục truyền thống yêu nước cho
                   thế hệ mai sau.
                 </div>

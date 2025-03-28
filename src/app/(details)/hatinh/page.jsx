@@ -10,12 +10,11 @@ export default function hatinh() {
         <header>
           <nav>
             <Link href="/" className="active">
-              Home
+              Trang chủ
             </Link>
-            <Link href="#">About</Link>
-            <Link href="#">Portfolio</Link>
-            <Link href="#">Services</Link>
-            <Link href="#">Contact</Link>
+            <Link href="/">Giới thiệu</Link>
+            <Link href="/">Dịch vụ</Link>
+            <Link href="/">Liên hệ</Link>
           </nav>
         </header>
         <div className="carousel">
@@ -68,7 +67,7 @@ export default function hatinh() {
                 </div>
               </div>
             </div>
-            
+
             {/*next prev button*/}
             <div className="arrows">
               <button className="prev">&lt;</button>

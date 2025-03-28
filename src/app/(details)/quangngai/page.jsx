@@ -10,12 +10,11 @@ export default function quangngai() {
         <header>
           <nav>
             <Link href="/" className="active">
-              Home
+              Trang chủ
             </Link>
-            <Link href="#">About</Link>
-            <Link href="#">Portfolio</Link>
-            <Link href="#">Services</Link>
-            <Link href="#">Contact</Link>
+            <Link href="/">Giới thiệu</Link>
+            <Link href="/">Dịch vụ</Link>
+            <Link href="/">Liên hệ</Link>
           </nav>
         </header>
         <div className="carousel">
@@ -54,11 +53,11 @@ export default function quangngai() {
                   đặc biệt, gắn liền với Cuộc khởi nghĩa Ba Tơ ngày 11/3/1945 và
                   sự ra đời, hoạt động của Đội du kích Ba Tơ anh hùng. Các điểm
                   di tích này phân bố chủ yếu trên địa bàn các xã Ba Vinh, Ba
-                  Động, Ba Thành và thị trấn Ba Tơ, huyện Ba Tơ.<br></br> Lịch sử Việt
-                  Nam hiện đại ghi nhận Khởi nghĩa Ba Tơ là cuộc khởi nghĩa từng
-                  phần đầu tiên trong cả nước nổ ra và giành thắng lợi. Cuộc
-                  khởi nghĩa Ba Tơ là một trang ngời sáng trong lịch sử Quảng
-                  Ngãi và lịch sử cả nước.
+                  Động, Ba Thành và thị trấn Ba Tơ, huyện Ba Tơ.<br></br> Lịch
+                  sử Việt Nam hiện đại ghi nhận Khởi nghĩa Ba Tơ là cuộc khởi
+                  nghĩa từng phần đầu tiên trong cả nước nổ ra và giành thắng
+                  lợi. Cuộc khởi nghĩa Ba Tơ là một trang ngời sáng trong lịch
+                  sử Quảng Ngãi và lịch sử cả nước.
                 </div>
               </div>
             </div>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Script from "next/script";
 import React from "react";
-import './style.scss';
+import "./style.scss";
 
 export default function SG() {
   return (
@@ -10,12 +10,11 @@ export default function SG() {
         <header>
           <nav>
             <Link href="/" className="active">
-              Home
+              Trang chủ
             </Link>
-            <Link href="#">About</Link>
-            <Link href="#">Portfolio</Link>
-            <Link href="#">Services</Link>
-            <Link href="#">Contact</Link>
+            <Link href="/">Giới thiệu</Link>
+            <Link href="/">Dịch vụ</Link>
+            <Link href="/">Liên hệ</Link>
           </nav>
         </header>
         <div className="carousel">
@@ -72,7 +71,7 @@ export default function SG() {
           </div>
         </div>
       </div>
-      <Script src="./SAIGON/app.js"></Script>
+      <Script src="./JS/app.js"></Script>
     </>
   );
 }

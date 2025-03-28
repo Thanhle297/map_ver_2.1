@@ -1,22 +1,21 @@
 import React from "react";
 import Link from "next/link";
 import Script from "next/script";
-import './style.scss'
+import "./style.scss";
 
 export default function hue() {
   return (
     <>
-    {/* <link rel="stylesheet" href="./HUE/style.css" /> */}
+      {/* <link rel="stylesheet" href="./HUE/style.css" /> */}
       <div>
         <header>
           <nav>
             <Link href="/" className="active">
-              Home
+              Trang chủ
             </Link>
-            <Link href="#">About</Link>
-            <Link href="#">Portfolio</Link>
-            <Link href="#">Services</Link>
-            <Link href="#">Contact</Link>
+            <Link href="/">Giới thiệu</Link>
+            <Link href="/">Dịch vụ</Link>
+            <Link href="/">Liên hệ</Link>
           </nav>
         </header>
         <div className="carousel">
@@ -60,7 +59,7 @@ export default function hue() {
           </div>
         </div>
       </div>
-      <Script src="./HUE/app.js"></Script>
+      <Script src="./JS/app.js"></Script>
     </>
   );
 }
