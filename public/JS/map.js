@@ -8,6 +8,11 @@ const map = new mapboxgl.Map({
   // style: "mapbox://styles/mapbox/streets-v12",
   center: [105.8542, 21.0285],
   zoom: 6,
+  minZoom: 4, // Cho phép thu nhỏ tới mức này
+  maxBounds: [
+    [100.0, 5.0], // Nới rộng biên giới một chút để tránh khóa zoom
+    [112.0, 25.0],
+  ],
 });
 
 map.on("load", () => {
@@ -1685,7 +1690,7 @@ map.on("load", () => {
       "text-halo-width": 2,
     },
   });
-// inline viền
+  // inline viền
   map.addLayer({
     id: "sparaty-island-laber",
     type: "line",
