@@ -40,7 +40,7 @@ h1 {
   justify-content: center;
   margin-bottom: 3%;
   margin-top: 3%;
-  font-family: "Time New Roman", serif;
+  // font-family: "Time New Roman", serif;
 }
 .link {
   margin-left: 50%;
@@ -63,7 +63,7 @@ h1 {
 .prev {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 30%;
   width: auto;
   padding: 2%;
   color: $color_1;
@@ -73,7 +73,7 @@ h1 {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 30%;
   width: auto;
   padding: 2%;
   color: $color_1;
@@ -93,6 +93,9 @@ h1 {
   margin-top: 3%;
   margin-bottom: 5%;
   // font-family: 'Roboto', serif;
+  overflow: auto;
+  max-height: 14vh;
+  text-wrap: auto;
 }
 .mapboxgl-popup-close-button {
   width: 30px;
