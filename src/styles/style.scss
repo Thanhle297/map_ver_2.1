@@ -8,7 +8,7 @@ $background-color_3: rgba(0, 0, 0, 0.6);
 $background-color_4: black;
 $background-color_5: #007bff;
 $background-color_6: #0056b3;
-$border-color_1: #007bff;
+$border-color_1: #e1dcd0;
 
 /* Tùy chỉnh kích thước dấu X trong popup */
 /* Đảm bảo dấu X không có viền */
@@ -83,6 +83,10 @@ h1 {
 }
 .mapboxgl-popup-content {
   // background: #0056b3 !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: 50% center;
+  background-image: url(https://cdn.glitch.global/90845d8e-81a9-424d-b13a-0acd2c0b3b63/4b65a8b55dcdf3ee10db8703ec2b3be6.jpg?v=1700156070316) !important;
   padding: 10px;
   max-width: 500px;
   min-width: 350px;
@@ -97,6 +101,25 @@ h1 {
   max-height: 14vh;
   text-wrap: auto;
 }
+
+.slide-content::-webkit-scrollbar {
+  width: 5px; /* Độ rộng của thanh cuộn */
+}
+
+.slide-content::-webkit-scrollbar-thumb {
+  background-color: #a88527; /* Màu của phần kéo */
+  border-radius: 4px; /* Bo tròn góc */
+}
+
+.slide-content::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Màu khi di chuột vào */
+}
+
+.slide-content::-webkit-scrollbar-track {
+  background-color: #e1dcd0; /* Màu nền của thanh cuộn */
+  border-radius: 4px;
+}
+
 .mapboxgl-popup-close-button {
   width: 30px;
   height: 30px;
@@ -118,8 +141,9 @@ h1 {
 }
 .timeline {
   position: relative;
-  border-radius: 100px;
-  background: #f8f9fa;
+  // border-radius: 100px;
+  // background: #f8f9fa;
+  background-image: url(https://cdn.glitch.global/90845d8e-81a9-424d-b13a-0acd2c0b3b63/4b65a8b55dcdf3ee10db8703ec2b3be6.jpg?v=1700156070316);
   width: 280px;
   justify-content: space-between;
   &::before {
@@ -207,6 +231,7 @@ h1 {
   font-size: 16px;
   outline: none;
   transition: border-color 0.3s ease;
+  // background-image: url(https://cdn.glitch.global/90845d8e-81a9-424d-b13a-0acd2c0b3b63/4b65a8b55dcdf3ee10db8703ec2b3be6.jpg?v=1700156070316);
   &:focus {
     border-color: $border-color_1;
   }
@@ -224,5 +249,3 @@ h1 {
     color: $color_4;
   }
 }
-
-
