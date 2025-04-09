@@ -1,11 +1,10 @@
-'use client'
+"use client";
 import Script from "next/script";
 import React from "react";
-import '../styles/style.scss'
+import "../styles/style.scss";
 // import { useEffect } from 'react';
 
 export default function MapComponents() {
-  
   return (
     <>
       <link
@@ -95,6 +94,9 @@ export default function MapComponents() {
             <i id="ico-search" className="fa-solid fa-magnifying-glass" />
           </div>
         </div>
+        <button id="show-hide-btn" title="Ẩn hiện bảng thời gian">
+          <i className="fa-solid fa-eye"></i>
+        </button>
       </div>
 
       <Script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></Script>

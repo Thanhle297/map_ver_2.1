@@ -783,6 +783,32 @@ window.plusSlides = function (n, locationIndex) {
   showSlides(currentSlide + n, locationIndex);
 };
 
+// Thêm sự kiện cho nút show-hide-btn để ẩn/hiện các marker
+document.getElementById("show-hide-btn").addEventListener("click", function() {
+  // Lấy icon trong nút
+  const icon = this.querySelector("i");
+  
+  // Kiểm tra trạng thái hiện tại của markers
+  const markersVisible = markers.some(markerObj => markerObj.marker.getElement().style.display !== "none");
+  
+  // Thay đổi trạng thái hiển thị của tất cả markers
+  markers.forEach(markerObj => {
+    if (markersVisible) {
+      // Nếu markers đang hiển thị, ẩn chúng đi
+      markerObj.marker.getElement().style.display = "none";
+      // Đổi icon thành eye-slash
+      icon.className = "fa-solid fa-eye-slash";
+      this.title = "Hiện các điểm đánh dấu";
+    } else {
+      // Nếu markers đang ẩn, hiện chúng lên
+      markerObj.marker.getElement().style.display = "block";
+      // Đổi icon thành eye
+      icon.className = "fa-solid fa-eye";
+      this.title = "Ẩn các điểm đánh dấu";
+    }
+  });
+});
+
 // Tìm kiếm khu vực và di chuyển đến vị trí tương ứng
 document.getElementById("btn-search").addEventListener("input", function (e) {
   const searchTerm = e.target.value.toLowerCase();
