@@ -24,20 +24,16 @@ export default function HN() {
           <div className="list">
             <div
               className="item"
-              style={{ backgroundImage: "url(HN/img/HN1.jpg)" }}
+              style={{ backgroundImage: "url(HN/img/HN10.jpg)" }}
             >
               <div className="content">
                 <div className="title">HÀ NỘI</div>
-                <div className="name">NHÀ HÁT LỚN</div>
+                <div className="name">Cột Cờ Hà Nội</div>
                 <div className="des">
-                  Nhà hát Lớn Hà Nội và quảng trường trước nhà hát là nơi diễn
-                  ra những sự kiện lịch sử trọng đại gắn liền với cuộc Cách mạng
-                  Tháng Tám. Ngày 17/8/1945, một cuộc mít-tinh do chính phủ bù
-                  nhìn Trần Trọng Kim tổ chức tại đây đã biến thành một cuộc
-                  biểu dương lực lượng cách mạng của Việt Minh. Ngày 19/8/1945,
-                  một cuộc mít-tinh lớn của cách mạng diễn ra ở quảng trường Nhà
-                  hát lớn. Đoàn biểu tình sau đó tỏa thành nhiều mũi tiến hành
-                  tổng khởi nghĩa trên toàn thành phố.
+                  Trong thời kỳ Pháp thuộc, Cột cờ Hà Nội được quân Pháp dùng để
+                  làm đài quan sát. Năm 1945, sau khi Cách mạng tháng Tám thành
+                  công, lá cờ đỏ sao vàng lần đầu tiên được treo lên Cột cờ Hà
+                  Nội.
                 </div>
               </div>
             </div>
@@ -146,7 +142,7 @@ export default function HN() {
                 </div>
               </div>
             </div>
-            <div
+            {/* <div
               className="item"
               style={{ backgroundImage: "url(HN/img/HN10.jpg)" }}
             >
@@ -160,7 +156,7 @@ export default function HN() {
                   Nội.
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           {/*next prev button*/}
           <div className="arrows">

@@ -159,6 +159,7 @@ a {
 		color: $color_3;
 		font-weight: bold;
 		line-height: 1;
+		margin-top: 8%;
 		margin-bottom: 10px;
 		opacity: 0;
 		animation: animate 1s ease-in-out 0.3s 1 forwards;
@@ -179,8 +180,8 @@ a {
 		text-transform: uppercase;
 		font-weight: bold;
 		line-height: 1;
-		text-shadow: 3px 4px 4px rgba(233, 229, 229, 0.8);
-		max-width: 350px;
+		text-shadow: 3px 4px 4px rgba(233, 229, 229, 0.419);
+		max-width: 450px;
 		opacity: 0;
 		animation: animate 1s ease-in-out 0.6s 1 forwards;
 	}
