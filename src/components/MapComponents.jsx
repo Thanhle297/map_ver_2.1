@@ -5,70 +5,70 @@ import "../styles/style.scss";
 
 export default function MapComponents() {
   // Ngăn chặn Ctrl+U, Ctrl+Shift+I, F12, chuột phải và phát hiện DevTools
-  // useEffect(() => {
-  //   // Ngăn chặn các phím tắt
-  //   const preventDevTools = (e) => {
-  //     // Ngăn chặn Ctrl+U
-  //     if (e.ctrlKey && e.key === 'u') {
-  //       e.preventDefault();
-  //       return false;
-  //     }
+  useEffect(() => {
+    // Ngăn chặn các phím tắt
+    const preventDevTools = (e) => {
+      // Ngăn chặn Ctrl+U
+      if (e.ctrlKey && e.key === 'u') {
+        e.preventDefault();
+        return false;
+      }
       
-  //     // Ngăn chặn Ctrl+Shift+I
-  //     if (e.ctrlKey && e.shiftKey && e.key === 'I') {
-  //       e.preventDefault();
-  //       return false;
-  //     }
+      // Ngăn chặn Ctrl+Shift+I
+      if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+        e.preventDefault();
+        return false;
+      }
       
-  //     // Ngăn chặn F12
-  //     if (e.key === 'F12') {
-  //       e.preventDefault();
-  //       return false;
-  //     }
-  //   };
+      // Ngăn chặn F12
+      if (e.key === 'F12') {
+        e.preventDefault();
+        return false;
+      }
+    };
 
-  //   // Ngăn chặn menu chuột phải
-  //   const preventRightClick = (e) => {
-  //     e.preventDefault();
-  //     return false;
-  //   };
+    // Ngăn chặn menu chuột phải
+    const preventRightClick = (e) => {
+      e.preventDefault();
+      return false;
+    };
 
-  //   // Phát hiện khi DevTools được mở
-  //   const detectDevTools = () => {
-  //     // Phát hiện DevTools bằng cách kiểm tra kích thước cửa sổ
-  //     const threshold = 160;
-  //     const widthThreshold = window.outerWidth - window.innerWidth > threshold;
-  //     const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+    // Phát hiện khi DevTools được mở
+    const detectDevTools = () => {
+      // Phát hiện DevTools bằng cách kiểm tra kích thước cửa sổ
+      const threshold = 160;
+      const widthThreshold = window.outerWidth - window.innerWidth > threshold;
+      const heightThreshold = window.outerHeight - window.innerHeight > threshold;
       
-  //     // Phát hiện DevTools bằng cách sử dụng console.clear
-  //     const checkDevToolsOpen = () => {
-  //       const startTime = new Date();
-  //       console.log();
-  //       console.clear();
-  //       const endTime = new Date();
-  //       return endTime - startTime > 100;
-  //     };
+      // Phát hiện DevTools bằng cách sử dụng console.clear
+      const checkDevToolsOpen = () => {
+        const startTime = new Date();
+        console.log();
+        console.clear();
+        const endTime = new Date();
+        return endTime - startTime > 100;
+      };
 
-  //     if (widthThreshold || heightThreshold || checkDevToolsOpen()) {
-  //       // Khi phát hiện DevTools được mở, tải lại trang
-  //       window.location.reload();
-  //     }
-  //   };
+      if (widthThreshold || heightThreshold || checkDevToolsOpen()) {
+        // Khi phát hiện DevTools được mở, tải lại trang
+        window.location.reload();
+      }
+    };
 
-  //   // Thêm event listener khi component được mount
-  //   document.addEventListener('keydown', preventDevTools);
-  //   document.addEventListener('contextmenu', preventRightClick);
+    // Thêm event listener khi component được mount
+    document.addEventListener('keydown', preventDevTools);
+    document.addEventListener('contextmenu', preventRightClick);
     
-  //   // Kiểm tra DevTools định kỳ
-  //   const interval = setInterval(detectDevTools, 1000);
+    // Kiểm tra DevTools định kỳ
+    const interval = setInterval(detectDevTools, 1000);
 
-  //   // Cleanup khi component unmount
-  //   return () => {
-  //     document.removeEventListener('keydown', preventDevTools);
-  //     document.removeEventListener('contextmenu', preventRightClick);
-  //     clearInterval(interval);
-  //   };
-  // }, []);
+    // Cleanup khi component unmount
+    return () => {
+      document.removeEventListener('keydown', preventDevTools);
+      document.removeEventListener('contextmenu', preventRightClick);
+      clearInterval(interval);
+    };
+  }, []);
 
   return (
     <>
