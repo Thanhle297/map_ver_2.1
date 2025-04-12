@@ -36,10 +36,11 @@ $border-color_1: #e1dcd0;
   width: 90%;
 }
 h1 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 3%;
-  margin-top: 3%;
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 3% !important;
+  margin-top: 3% !important;
+  font-size: 25px !important;
   // font-family: "Time New Roman", serif;
 }
 .link {
@@ -161,7 +162,7 @@ h1 {
   display: flex;
   align-items: center;
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   position: relative;
   padding-left: 50px;
   &:hover {
