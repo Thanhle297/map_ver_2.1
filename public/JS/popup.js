@@ -12,7 +12,7 @@ var locations = [
       "https://via.placeholder.com/300x200?text=SG+1",
       "https://via.placeholder.com/300x200?text=SG+2",
     ],
-    date: ["24-8", "25-8"],
+    date: ["25-8"],
   },
   {
     lat: 21.0285,
@@ -33,7 +33,7 @@ var locations = [
       "https://file3.qdnd.vn/data/images/0/2022/07/25/huyentrang_km/2.jpg",
       "https://file3.qdnd.vn/data/images/0/2022/07/25/huyentrang_km/2.jpg",
     ],
-    date: ["15-8", "16-8", "17-8", "18-8", "19-8"],
+    date: ["19-8"],
   },
   {
     lat: 16.4637,
@@ -75,7 +75,7 @@ var locations = [
     ],
     url: "/thainguyen",
     images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
-    date: ["16-8", "20-8"],
+    date: ["20-8"],
   },
   {
     lat: 21.8225,
@@ -87,7 +87,7 @@ var locations = [
     ],
     url: "/tuyenquang",
     images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
-    date: ["21-8", "22-8"],
+    date: ["21-8"],
   },
   {
     lat: 21.2719,
@@ -121,7 +121,7 @@ var locations = [
     ],
     url: "/hatinh",
     images: ["./IMG/cmt8.jpg", "./IMG/cmt8.jpg"],
-    date: ["17-8", "18-8"],
+    date: ["18-8"],
   },
   {
     lat: 15.58,
@@ -196,7 +196,7 @@ var locations = [
       "./IMG/cmt8.jpg",
       "./IMG/cmt8.jpg",
     ],
-    date: ["19-8", "20-8", "21-8", "25-8"],
+    date: ["20-8"],
   },
   {
     lat: 21.7229,
