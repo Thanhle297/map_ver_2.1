@@ -10,8 +10,8 @@ const map = new mapboxgl.Map({
   zoom: 6,
   minZoom: 4, // Cho phép thu nhỏ tới mức này
   maxBounds: [
-    [100.0, 5.0], // Nới rộng biên giới một chút để tránh khóa zoom
-    [112.0, 25.0],
+    [90.0, 5.0], // Nới rộng biên giới một chút để tránh khóa zoom
+    [120.0, 23.0],
   ],
 });
 
@@ -1788,5 +1788,25 @@ map.on("load", () => {
   } else {
     console.warn("Lớp 'admin-1-boundary' không tồn tại");
   }
-});
 
+  const markers = [
+    {
+      date: "14-8",
+      marker: new mapboxgl.Marker().setLngLat([105.8542, 21.0285]).addTo(map),
+    },
+    {
+      date: "15-8",
+      marker: new mapboxgl.Marker().setLngLat([106.8542, 22.0285]).addTo(map),
+    },
+    {
+      date: "16-8",
+      marker: new mapboxgl.Marker().setLngLat([107.8542, 23.0285]).addTo(map),
+    },
+    // Thêm các marker khác tương ứng với các ngày
+  ];
+
+  // Ẩn tất cả marker ban đầu
+  markers.forEach((markerObj) => {
+    markerObj.marker.getElement().style.display = "none";
+  });
+});

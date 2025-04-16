@@ -2,7 +2,7 @@
 import Script from "next/script";
 import React, { useEffect } from "react";
 import "../styles/style.scss";
-
+// import initializeMap from "../app/config/map"; // Đường dẫn đến file map.js
 export default function MapComponents() {
   // Ngăn chặn Ctrl+U, Ctrl+Shift+I, F12, chuột phải và phát hiện DevTools
   useEffect(() => {
